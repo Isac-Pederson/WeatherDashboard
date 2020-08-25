@@ -6,3 +6,8 @@ index. When the user views the UV index they are presented with a color that ind
 This websites features dynamically updated HTML and CSS.
 
 The API used is from OpenWeatherAPI. 
+
+
+![](images/weather2.PNG)
+
+![](images/weather.PNG)
