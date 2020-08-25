@@ -1,0 +1,87 @@
+body{
+    background-color: #eef6fa;
+    background-image: url('https://images.wallpapersden.com/image/download/sunrise-clouds_61682_1920x1080.jpg');
+    /* background-repeat: repeat-x; */
+    background-size: auto;
+    width:95%;
+    height:100%;
+
+}
+
+
+
+.space{
+    margin-top: 10%;
+}
+
+#weather-dash{
+    border-bottom: 1px solid #7ad0f5;
+    color: ivory;
+    
+}
+
+
+.search-btn{
+    background-color: #45c2f7;
+}
+
+.city-background{
+    background-color: ivory;
+    height: 10px;
+}
+
+.current-day-forecast{
+    background-color: ivory;
+}
+
+.city-name{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 120%;
+    color: gray;
+    background-color: ivory;
+    z-index: 60;
+}
+
+p{
+
+    font-size: 150%;
+}
+
+.hide{
+    display: none;
+}
+
+.wiconclass{
+    background-color: #4ab7f6;
+    border-radius: 5%;
+}
+
+#forecast{
+    padding-top: 10%;
+}
+
+#forecast-background{
+    background-color: ivory;
+    border-radius: 2%;
+}
+
+.col-lg-2{
+    margin: 10px;
+    padding: 10px;
+    background-color: ivory;
+    border-radius: 5%;
+}
+
+#rightspace{
+    margin-right: 3.5%;
+}
+
+#uvi{
+    border-radius: 2.5%;
+}
+
+/* div{
+    border: 1px solid red
+} */
+

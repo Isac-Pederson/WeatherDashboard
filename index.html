@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+    <head>
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script src="https://momentjs.com/downloads/moment.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <header>
+            <center>
+                <h1 id="weather-dash">Weather Dashboard</h1>
+            </center>
+        </header>
+
+    </head>
+
+
+    <body>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="space"> </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" id="search" placeholder="Search for a City" type="text" >
+                            <button class="btn btn-outline-primary my-2 my-sm-0" type="button" id="button">Search</button>
+                        </form>
+                    </nav>
+                    <div><p></p></div>
+                    <div id="city-background">
+                            
+                    </div>
+                </div>
+
+                  <div class="col-lg-1">
+                      <p></p>
+                  </div>
+
+                  <div class="col-7 current-day-forecast hide">
+                        <center>
+                            <h1 id="current-city"></h1>
+                            <img id="wicon" src="" alt="Weather icon" class="hide wiconclass">
+                        </center>
+                        <p id="temp">Temperature: </p>
+                        <p id="humid">Humidity: </p>
+                        <p id="wind-speed">Wind Speed: </p>
+                        <p id="uvi">UV Index:</p>
+                        
+                  </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 hide" id="forecast">
+                    <center><h1 id="forecast-background">5 Day Forecast</h1></center>
+                </div>
+            </div>
+
+
+            <div class="row hide">
+                <div id="rightspace"></div>
+                <div class="col-lg-2" data-days="1" id="1">
+                    <center>
+                        <p id="1day"></p>
+                        <img id="wicon1" src="" alt="Weather icon" class="hide wiconclass">
+                        <p id="temp1"></p>
+                        <p id="humid1"></p>
+                    </center>
+                </div>
+                <div class="col-lg-2" data-days="2">
+                    <center>
+                        <p id="2day"></p>
+                        <img id="wicon2" src="" alt="Weather icon" class="hide wiconclass">
+                        <p id="temp2"></p>
+                        <p id="humid2"></p>
+                    </center>
+                </div>
+                
+                <div class="col-lg-2" data-days="3">
+                    <center>
+                        <p id="3day"></p>
+                        <img id="wicon3" src="" alt="Weather icon" class="hide wiconclass">
+                        <p id="temp3"></p>
+                        <p id="humid3"></p>
+                    </center>
+                </div>
+                
+                <div class="col-lg-2" data-days="4">
+                    <center>
+                        <p id="4day"></p>
+                        <img id="wicon4" src="" alt="Weather icon" class="hide wiconclass">
+                        <p id="temp4"></p>
+                        <p id="humid4"></p>
+                    </center>
+                </div>
+                
+                <div class="col-lg-2" data-days="5">
+                    <center>
+                        <p id="5day"></p>
+                        <img id="wicon5" src="" alt="Weather icon" class="hide wiconclass">
+                        <p id="temp5"></p>
+                        <p id="humid5"></p>
+                    </center>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </body>
+
+
+
+    <script src="script.js"></script>
+
+
+
+
+</html>
