@@ -7,6 +7,7 @@ This websites features dynamically updated HTML and CSS.
 
 The API used is from OpenWeatherAPI. 
 
+https://isac-pederson.github.io/WeatherDashboard/
 
 ![](images/weather2.PNG)
 
